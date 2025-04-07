@@ -57,7 +57,7 @@ Completed the pfSense installation over a VNC session. Key initial setup tasks i
 Created an SSH tunnel to securely access the pfSense WebGUI without exposing management interfaces to the public internet:
 
 ```bash
-ssh -p 2222 -L 8443:192.168.122.185:443 user@your-server-ip
+ssh -L 8443:192.168.122.180:443 user@my-server-name
 ```
 
 Accessed the pfSense WebGUI locally at `https://localhost:8443`.
